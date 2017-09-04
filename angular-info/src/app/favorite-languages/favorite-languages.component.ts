@@ -9,7 +9,7 @@ import { LanguageList } from '../types/favorite-languages';
 })
 export class FavoriteLanguagesComponent implements OnInit {
   languageList: LanguageList;
-  newLanguage:string;
+  newLanguage: string;
   constructor() { }
 
   ngOnInit() {
