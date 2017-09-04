@@ -1,0 +1,14 @@
+<h4>Add Language</h4>
+<form (submit)="addLanguage()">
+  <input type="text" [(ngModel)]="newLanguage" name="input">
+  <input type="submit">
+</form>
+
+<h1>
+  Favorite Languges
+</h1>
+<ul>
+  <h3 *ngFor="let favoriteLanguage of languageList.list">
+    {{favoriteLanguage.name}}
+  </h3>
+</ul>
